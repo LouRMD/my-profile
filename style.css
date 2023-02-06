@@ -1,0 +1,97 @@
+.img-circle {
+  border-radius: 10%;
+}
+
+.img-rectangle {
+  border-radius: 10%;
+}
+
+.img-rectangl {
+  border-radius: 10%;
+}
+body {
+      background-color:#95B2B0;
+    color: grey;
+    font-family: Georgia;
+    font-weight: 100;
+
+}
+
+h1 {
+  color : #F49097;
+  font-family: Helvetica;
+  font-weight: 50;
+  letter-spacing: 0px;
+  font-size: 40px;
+}
+
+h2 {
+  color: #F49097;
+  font-size: 40px;
+  font-family: Helvetica;
+  font-weight: 50;
+}
+/* Custom design with class (99% of your design) */
+#container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+  .container {
+    background-color: red;}}
+
+@media (max-width: 760px) {
+  .container {
+    width 660px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  box-shadow:10px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.btn-blue {
+  background-color: #F49097;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px
+}
+.btn-blue:hover {
+  background-color: grey;
+  color: white
+}
+.list-inline {
+  list-style: none;
+  padding-right: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 20px
+}
+.list-inline i {
+  font-size: 40px;
+  padding-right: 35px;
+  margin: 0px;
+  color: grey;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: pink;
+}
+
+
+/*Designe adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
